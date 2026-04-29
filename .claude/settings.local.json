@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install *)",
+      "Bash(npm run *)",
+      "Bash(node -e \"const si = require\\('react-icons/si'\\); const keys = Object.keys\\(si\\).filter\\(k => k.toLowerCase\\(\\).includes\\('node'\\) || k.toLowerCase\\(\\).includes\\('css'\\) || k.toLowerCase\\(\\).includes\\('express'\\) || k.toLowerCase\\(\\).includes\\('postman'\\)\\); console.log\\(keys.join\\('\\\\n'\\)\\)\")",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:3000)",
+      "Bash(npx next *)",
+      "Bash(node -e \"const ri = require\\('react-icons/si'\\); console.log\\('SiCss3:', !!ri.SiCss3, 'SiCss:', !!ri.SiCss\\)\")",
+      "Bash(node -e \"const ri = require\\('react-icons/si'\\); console.log\\('SiTailwindcss:', !!ri.SiTailwindcss, 'SiTailwind:', !!ri.SiTailwind\\)\")",
+      "Read(//c/Users/mjd98/.claude/projects/c--Users-mjd98-Desktop-Portfolio-Maj/**)",
+      "Read(//c/Users/mjd98/.claude/projects/c--Users-mjd98-Desktop-Portfolio-Maj/memory/**)",
+      "Bash(node -e \"console.log\\(require\\('./node_modules/next/package.json'\\).version\\)\")"
+    ]
+  }
+}
