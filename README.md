@@ -1,4 +1,4 @@
-# My New Portfolio
+## My New Portfolio
 
 This is my personal portfolio built with Next.js.
 
@@ -9,13 +9,13 @@ This is my personal portfolio built with Next.js.
 - Tailwind CSS
 
 
-📂 Project Structure :
+## Project Structure :
 app/ → Next.js app router files (layout, pages, API routes)
 components/ → Reusable React components (Navbar, Hero, About, Projects, etc.)
 public/ → Static assets (profile image, project screenshots, icons)
 
 
-🖼️ Adding Images & Profile :
+## Adding Images & Profile :
 Put your profile picture and project images inside the public/ folder.
 Examples:
 public/profile.jpg → used in the Hero or About section
@@ -34,6 +34,6 @@ npm run dev
 Open http://localhost:3000 (localhost in Bing) to view it in your browser.
 
 
-🌐 Deployment :
+## Deployment :
 This portfolio is deployed with Vercel.
-Live Demo: https://my-new-portfolio-dusky.vercel.app
+🌐 Live Demo: https://my-new-portfolio-dusky.vercel.app
